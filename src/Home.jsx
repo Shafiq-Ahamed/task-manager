@@ -1,5 +1,5 @@
 import { useState,useRef } from "react";
-import "./home.css"
+import "./Home.css"
 import { useNavigate } from "react-router-dom";
 import {GoTasklist} from "react-icons/go";
 const Home = () => {
