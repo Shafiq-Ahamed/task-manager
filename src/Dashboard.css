@@ -1,0 +1,164 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  display: flex;
+}
+.sidebar{
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.count1{
+  position: relative;
+  top: 2px;
+}
+.logo{
+  font-weight: bold;
+  color: #666;
+  margin-left: 15px;
+}
+.main-container .logo{
+  font-size: 1.8vw;
+}
+.nav{
+  list-style: none;
+  padding-left: 0;
+ margin-bottom: 180%;
+}
+.nav li{
+  cursor: pointer;
+}
+.line{
+  border-bottom: 1px solid #e5e7eb ;
+  margin-top:20%;
+}
+.nav li.active{
+  background-color: #e5e7eb;
+  font-size: 1.3vw;
+  padding: 5px 0;
+}
+.logout{
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 15px;
+  margin-top: 25%;
+}
+.navbar{
+  padding: 15px 0 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+.dashboard-container {
+  padding: 0 20px;
+  flex: 1;
+}
+.dashboard-container h1{
+  margin: 10px 0 5px 0;
+}
+.task-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  font-size: 24px;
+}
+.task-info{
+  display: flex;
+  flex-direction: column;
+}
+.dashboard-container p{
+  margin-bottom: 20px;
+  color: gray;
+}
+.task-stats {
+  display: flex;
+  justify-content: space-between;
+}
+.txt{
+  position: relative;
+  top: 8px;
+}
+.count{
+  position: relative;
+  bottom: 8px;
+}
+.stat-box {
+  background-color: #fff;
+  padding: 18px  10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.stat-box span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 20px;
+  color: gray;
+}
+.stat-box span:last-child {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+  padding-left: 20px;
+}
+
+.new-task-form {
+  background-color: #fff;
+  padding: 10px 40px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.new-task-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.new-task-form input, .new-task-form textarea{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+    background-color: #f9fafb;
+}
+.new-task-form select{
+    width: 103%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color:#f9fafb;
+}
+
+.new-task-form button {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 103%;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+.task-item {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.task-item input[type="checkbox"] {
+  margin-right: 10px;
+}
